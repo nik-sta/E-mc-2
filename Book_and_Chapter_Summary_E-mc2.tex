@@ -6,7 +6,7 @@
 
 \documentclass[a4paper,12pt]{scrreprt}
 
-%% Pakete laden
+%% Load packages
 %% ========
 
 \usepackage[T1]{fontenc}
@@ -20,31 +20,31 @@
 
 \geometry{papersize={210mm,297mm},total={160mm,240mm},top=31mm,bindingoffset=15mm}
 
-%% Eigene Variablen
+%% Own variables
 %% ========
-\newcommand{\autoren}{Nikola Stanković}
-\newcommand{\dokumenttitel}{E = mc$^2$}
-\newcommand{\dokumentuntertitel}{Book \& Chapter Summary}
+\newcommand{\documentauthors}{Nikola Stanković}
+\newcommand{\documenttitel}{E = mc$^2$}
+\newcommand{\documentsubtitel}{Book \& Chapter Summary}
 
 %% PDF Meta-Informationen
 %% ========
 \pdfinfo{
-   /Author (\autoren)
-   /Title  (\dokumenttitel)
+   /Author (\documentauthors)
+   /Title  (\documenttitel)
    /CreationDate (D:20040502195600)
    /Subject (English, Where Tech Meets BEC)
    /Keywords (English;BEC;HSR)
 }
 
 \begin{document}
-\author{\autoren \\ University of Applied Sciences Rapperswil \\ St. Gallen, Switzerland \\ nikola.stankovic@hsr.ch}
+\author{\documentauthors \\ University of Applied Sciences Rapperswil \\ St. Gallen, Switzerland}
 
-\title{\dokumenttitel}
-\subtitle{\dokumentuntertitel}
+\title{\documenttitel}
+\subtitle{\documentsubtitel}
 \maketitle
 \tableofcontents
 
-%% Alle Inhalte deser Arbeit
+%% All content of this work
 \input{Context}
 \input{Summary}
 \input{Character-List}
