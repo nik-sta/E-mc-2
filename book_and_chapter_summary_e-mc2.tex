@@ -17,13 +17,14 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{graphicx}
 
 \geometry{papersize={210mm,297mm},total={160mm,240mm},top=31mm,bindingoffset=15mm}
 
 %% Own variables
 %% ========
 \newcommand{\documentauthors}{Nikola Stanković, Robin Suter, Jonas Matter, Marcel Stocker, Patrick Scherler}
-\newcommand{\documenttitel}{E = mc$^2$}
+\newcommand{\documenttitel}{E = mc$^2$, by David Bodanis}
 \newcommand{\documentsubtitel}{Book \& Chapter Summary}
 
 %% PDF meta informations
@@ -50,9 +51,23 @@
   Scherler, Patrick
 }
 
-\title{\documenttitel}
-\subtitle{\documentsubtitel}
-\maketitle
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/HSR_Logo_CMYK.jpg}\par\vspace{1cm}
+	{\scshape\LARGE University of Applied Sciences Rapperswil \par}
+	\vspace{1cm}
+	{\scshape\Large \documenttitel \par}
+	\vspace{0.5cm}
+	{\huge\bfseries \line(1,0){400} \\ \documentsubtitel \\ \line(1,0){400} \par}
+	\vspace{2cm}
+	{\Large\itshape \documentauthors \par}
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
 \tableofcontents
 
 %% All content of this work
