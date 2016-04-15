@@ -2,7 +2,8 @@ before_install:
 - sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended lmodern
 script:
 - mkdir _build
-- pdflatex -output-directory _build book_and_chapter_summary_e-mc2.tex
+- DATE=`date +"%y%m%d"`
+- pdflatex -jobname=Book_and_Chapter_Summary_E-mc2_$DATE -output-directory _build book_and_chapter_summary_e-mc2.tex
 deploy:
   provider: releases
   api_key:
