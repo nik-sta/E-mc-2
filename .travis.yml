@@ -4,6 +4,7 @@ script:
 - mkdir _build
 - DATE=`date +"%y%m%d"`
 - pdflatex -jobname=Book_and_Chapter_Summary_E-mc2_$DATE -output-directory _build book_and_chapter_summary_e-mc2.tex
+- pdflatex -jobname=Book_and_Chapter_Summary_E-mc2_$DATE -output-directory _build book_and_chapter_summary_e-mc2.tex
 deploy:
   provider: releases
   api_key:
