@@ -3,4 +3,4 @@
 # Book and Chapter Summary of David Bodanis book E=mc^2
 **This LATEX project is a book and chapter summary of David Bodanis book "E=mc^2".**
 
-The generated PDF file can be downlaoaded at this site: https://github.com/nikolastankovic/E-mc-2/releases
+The generated PDF file can be downloaded on this site: https://github.com/nikolastankovic/E-mc-2/releases
