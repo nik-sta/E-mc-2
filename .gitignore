@@ -57,3 +57,11 @@ Temporary Items
 *.fls
 *.toc
 *.pdf
+*.acn
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.idx
+*.ist
+*.xdy
