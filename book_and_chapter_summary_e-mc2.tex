@@ -4,7 +4,7 @@
 % (C) 2016 by Nikola Stankovic, University of Applied Sciences Rapperswil, Switzerland
 %%
 
-\documentclass[a4paper,12pt]{scrreprt}
+\documentclass[a4paper,12pt,parskip]{scrreprt}
 
 %% Load packages
 %% ========
@@ -25,14 +25,14 @@
 
 %% Own variables
 %% ========
-\newcommand{\documentauthors}{Nikola Stanković, Robin Suter, Jonas Matter, Marcel Stocker, Patrick Scherler}
+\newcommand{\documentauthors}{Nikola Stanković, Robin Suter, Jonas Matter, Marcel Stocker, Patrick Scherler, Cyrill Gsell}
 \newcommand{\documenttitel}{E = mc$^2$, by David Bodanis}
 \newcommand{\documentsubtitel}{Book \& Chapter Summary}
 
 %% PDF meta informations
 %% ========
 \hypersetup{
-	pdfauthor={Nikola Stankovic, Robin Suter, Jonas Matter, 	Marcel Stocker, Patrick Scherler},
+	pdfauthor={Nikola Stankovic, Robin Suter, Jonas Matter, Marcel Stocker, Patrick Scherler, Cyrill Gsell},
 	pdftitle={E = mc2, by David Bodanis},
 	pdfsubject={Book and Chapter Summary},
 	pdfkeywords={English, BEC, HSR},
@@ -52,6 +52,8 @@
   Stocker, Marcel
   \and
   Scherler, Patrick
+  \and
+  Gsell, Cyrill
 }
 
 \begin{titlepage}
@@ -75,11 +77,11 @@
 
 %% All content of this work
 \input{context}
-\input{summary}
+\input{preface}
+\input{summary-and-analysis}
+\input{study-questions}
 \input{character-list}
 \input{analysis-of-major-character}
 \input{themes-motifs-and-symbols}
-\input{summary-and-analysis}
-\input{study-questions}
 
 \end{document}
